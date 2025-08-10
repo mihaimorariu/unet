@@ -1,8 +1,8 @@
+# pylint: disable=missing-function-docstring, missing-module-docstring
+
 import torch
 from torch import Tensor
 from unet import Encoder, Decoder, UNet
-
-# pylint: disable=missing-function-docstring, missing-module-docstring
 
 
 def test_encoder():
